@@ -13,6 +13,9 @@
 		0CA145EB1CD35777004A259C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA145E91CD35777004A259C /* Main.storyboard */; };
 		0CA145ED1CD35777004A259C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA145EC1CD35777004A259C /* Assets.xcassets */; };
 		0CA145F01CD35777004A259C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA145EE1CD35777004A259C /* LaunchScreen.storyboard */; };
+		0CA145FA1CD35916004A259C /* BMW.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA145F91CD35916004A259C /* BMW.m */; };
+		0CA145FD1CD359EC004A259C /* FactoryBMW320.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA145FC1CD359EC004A259C /* FactoryBMW320.m */; };
+		0CA146001CD35B3E004A259C /* FactoryBMW320i.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA145FF1CD35B3E004A259C /* FactoryBMW320i.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,13 @@
 		0CA145EC1CD35777004A259C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CA145EF1CD35777004A259C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CA145F11CD35777004A259C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CA145F71CD3589E004A259C /* FactoryProtocal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryProtocal.h; sourceTree = "<group>"; };
+		0CA145F81CD35916004A259C /* BMW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMW.h; sourceTree = "<group>"; };
+		0CA145F91CD35916004A259C /* BMW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMW.m; sourceTree = "<group>"; };
+		0CA145FB1CD359EC004A259C /* FactoryBMW320.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryBMW320.h; sourceTree = "<group>"; };
+		0CA145FC1CD359EC004A259C /* FactoryBMW320.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryBMW320.m; sourceTree = "<group>"; };
+		0CA145FE1CD35B3E004A259C /* FactoryBMW320i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryBMW320i.h; sourceTree = "<group>"; };
+		0CA145FF1CD35B3E004A259C /* FactoryBMW320i.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryBMW320i.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,13 @@
 				0CA145E41CD35777004A259C /* AppDelegate.m */,
 				0CA145E61CD35777004A259C /* ViewController.h */,
 				0CA145E71CD35777004A259C /* ViewController.m */,
+				0CA145F71CD3589E004A259C /* FactoryProtocal.h */,
+				0CA145FB1CD359EC004A259C /* FactoryBMW320.h */,
+				0CA145FC1CD359EC004A259C /* FactoryBMW320.m */,
+				0CA145FE1CD35B3E004A259C /* FactoryBMW320i.h */,
+				0CA145FF1CD35B3E004A259C /* FactoryBMW320i.m */,
+				0CA145F81CD35916004A259C /* BMW.h */,
+				0CA145F91CD35916004A259C /* BMW.m */,
 				0CA145E91CD35777004A259C /* Main.storyboard */,
 				0CA145EC1CD35777004A259C /* Assets.xcassets */,
 				0CA145EE1CD35777004A259C /* LaunchScreen.storyboard */,
@@ -151,6 +168,9 @@
 			files = (
 				0CA145E81CD35777004A259C /* ViewController.m in Sources */,
 				0CA145E51CD35777004A259C /* AppDelegate.m in Sources */,
+				0CA146001CD35B3E004A259C /* FactoryBMW320i.m in Sources */,
+				0CA145FD1CD359EC004A259C /* FactoryBMW320.m in Sources */,
+				0CA145FA1CD35916004A259C /* BMW.m in Sources */,
 				0CA145E21CD35777004A259C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,7 +287,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Factory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.LDX.Factory;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.Factory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -278,7 +298,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Factory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.LDX.Factory;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.Factory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
